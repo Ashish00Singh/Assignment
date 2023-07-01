@@ -1,0 +1,165 @@
+Name:- Ashish Singh
+
+
+
+Q1.   Difference between flex row and column
+   
+Q2.   Explain inline , internal and external stylesheet
+Ans:- Inline CSS:-   It is used within HTML tag using the style attribute. 
+      Internal CSS:- It is used within <head> section of HTML document. 
+      External CSS:- It is used in a separate .css file.
+
+Q3.   Justify-content allows you to do what?
+Ans:- distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container
+
+Q4    Difference between absolute and relative positioning?
+Ans:- Relative - the element is positioned relative to its normal position. Absolute - the element is positioned absolutely to its first positioned parent.
+
+Q5    What is grid-template-columns used for?
+Ans:- specifies the number (and the widths) of columns in a grid layout. 
+
+Q5    What is the z-index in CSS?
+Ans:- The z-index property specifies the stack order of an element.
+
+Q5    What is the difference between padding and margin?
+Ans:- Padding represents the amount of inner space an element has, while the margin is whitespace available surrounding an element
+
+Q6    What is box sizing?
+Ans:- The box-sizing property allows us to include the padding and border in an element's total width and height
+
+Q7    What is animation delay?
+Ans:- specifies the amount of time to wait from applying the animation to an element before beginning to perform the animation
+
+Q8    Which property you will use to merge cells vertically in grid?
+Ans:- item1 {
+          grid-column: 1 / span 2;
+           }
+
+Q9    Which property you will use to merge cells horizontally in grid?
+Ans:- item1 {
+          grid-row: 1 / span 2;
+           }
+Q10   Explain CSS box model
+Ans:- The CSS box model is essentially a box that wraps around every HTML element.It consists of: margins, borders, padding, and the actual content.
+
+Q11   What is the difference between display none and visibility hidden?
+Ans:- visibility:hidden hides the element, but it still takes up space in the layout. display:none removes the element from the document. It does not take up any space
+
+Q13   Write a text and add any google font 
+Ans:- <head>
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?             family=Sofia">
+          <style>
+          body {
+             font-family: "Sofia", sans-serif;
+          }
+          </style>
+       </head>
+
+Q14   create a box and increase its width on hover , add transition on hover
+Ans:- #opo{
+      width: 250px;
+      height: 250px;
+      background-color: blueviolet;
+      margin: auto;
+      text-align: center;  
+
+      }
+      #opo:hover{
+      background-color: rgb(44, 36, 20);
+      transition: 2s;
+      color: wheat;
+      width: 205px;
+      }
+
+Q15   Create a circle using border radius?
+Ans:- .circle{
+       width: 250px;
+       height: 250px;
+       background-color: rgb(160, 152, 147);
+       border-radius: 100%;
+       text-align: center;
+       }
+
+
+Q16    Write code to show implementation of media queries
+Ans:-  @media screen and (max-width: 992px) {
+      *{
+          background-color: blue;
+         }
+        }
+  
+        @media screen and (max-width: 600px) {
+        *{
+           background-color: rgb(2, 2, 1);
+          }
+          }
+
+Q17    Write code to show any animation example
+Ans:-  .animation{
+       width: 200px; 
+       height: 100px;
+       margin: auto;
+       margin-top: 400px;
+       background-color: black;
+       transition-duration: 20s;
+       }
+
+Q18   Write a code to insert an image 
+Ans:- <img src="Apple.jpg" alt="Apple">
+
+Q19   Create a form contain input fields like name age email and contact
+Ans:- <form action="">
+        <label for="">Name </label>
+        <input type="text"><br>
+        <label for="">Age</label>
+        <input type="number"><br>
+        <label for="">Email</label>
+        <input type="email"><br>
+        <label for="">Contact</label>
+        <input type="number">
+       </form>
+
+Q20   Create a table and explain how to acheive colspan
+Ans:- <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+       </tr>
+
+Q21   Difference between div and span?
+Ans:- A div tag creates a block-level element while a <span> tag wraps around an inline element
+
+Q22   Difference between class and IDs?
+Ans:- While an ID is specific to a single element, classes can be assigned to multiple elements on a page or throughout the website
+
+Q23   What are self closing tags
+Ans:- A self-closing tag in HTML is a kind of HTML tag that does not need to beclosed manually How many types of headings are der ?How to decide which to use where Difference between block and inline Difference between em and strong Ex:- <input/>, <hr/>, <br/>, <img/>
+
+Q24   What are attributes?
+Ans:- HTML attributes provide additional information about HTML elements.
+
+Q25   Difference between HTML tags and elements
+Ans:- HTML Tags are building blocks of HTML Page. HTML Elements are components that are used in HTML Page. 
+
+Q26   Explain br tags?
+Ans:- The <br> tag inserts a single line break.
+
+Q27   Explain how many different types of lists we have in html?
+Ans:- Tag	     Description
+------------------------------------------------
+     <ul>       Defines an unordered list
+     <ol>       Defines an ordered list
+     <li>       Defines a list item
+     <dl>       Defines a description list
+
+Q28   What are semantic tags
+Ans:- Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like <header>, <article>, and <footer> are semantic
+
+Q29   Write code to create an ordered list with roman numbers?
+Ans:- <ol type="I">
+
+Q30   Write code to create an unordered list with circle?
+ans:- <ul style="list-style-type: circle">
+           <li>Item in list…</li>
+           <li>Item in list…</li>
+           <li>Item in list…</li>
+      </ul>
